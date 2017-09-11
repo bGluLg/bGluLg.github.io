@@ -1,58 +1,51 @@
 <!DOCTYPE html>
 <html>
-<title>lin</title>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>lin2</title>
 <style type="text/css">
-body {
-	background-color: #F1F1F1;
+body{
 	font-family:"微软雅黑", Arial;
+	background:#F0F0F0;
 }
-#table_photo{
+#table_all{
 	width:100%;
+	float:none;
+}
+.td_headphoto{
 	text-align:center;
 }
-#table1{
-	width: 100%;
-	height: 100%;
-	border: none;
-	text-align: center;
-}
-.headphoto{
+.div_headphoto{
 	width:100px;
 	height:100px;
-	text-align:center;
-	float:none;
 	border-radius:50%;
 	overflow:hidden;
+	margin:0 auto;
 }
-.headphotoimg{
+.div_name{
+	font-size: 20px;
+	padding-top: 10px;
+}
+.img_headphoto{
 	width:100px;
 	height:100px;
-	float:none;
 }
 </style>
+
+</head>
+
 <body>
-<table id="table_photo">
-<tr>
-<td>
-  <div id="headphoto" class="headphoto"><img src="lin.jpg" alt="headphoto" class="headphotoimg"></div></td>
-</tr>
-</table>
-<table id="table1">
+<table id="table_all">
   <tr>
-    <td><a href="index2.html">lin2.html</a></td>
-    <td>2</td>
-    <td>3</td>
+    <td class="td_headphoto">
+    <div class="div_headphoto"><img src="lin.jpg" class="img_headphoto"></div>
+    <div class="div_name">lin</div>
+    </td>
   </tr>
   <tr>
-    <td>4</td>
-    <td>5</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>8</td>
-    <td>9</td>
+    <td>&nbsp;</td>
   </tr>
 </table>
+
 </body>
 </html>
