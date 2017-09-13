@@ -2,113 +2,54 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>xys12</title>
+<title>lin</title>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="bookmark" href="/favicon.ico"/>
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="bookmark" href="favicon.ico"/>
 <style type="text/css">
-	/*>900*/
-	*{
-		padding:0px;
-		margin:0px;
-		font-family:"微软雅黑", Arial;
-	}
-	#header{
-		height:100px;
-		border:solid 1px #ff0000;
-		margin:0px auto;
-	}
-	#main{
-		margin:10px auto;
-		height:400px;
-	}
-	#footer{
-		margin:0px auto;
-		height:100px;
-		border:solid 1px #ff0000;
-	}
-	
-	@media screen and (min-width:900px)
-	{
-		#header,#footer{
-			width:800px;
-		}
-		#main{
-			width:800px;
-			height:400px;
-		}
-		#main-left{
-			width:200px;
-			height:400px;
-			border:solid 1px #ff0000;
-			float:left;
-		}
-		#main-center{
-			width:394px;
-			height:400px;
-			border:solid 1px #ff0000;
-			float:left;
-		}
-		#main-right{
-			width:200px;
-			height:400px;
-			border:solid 1px #ff0000;
-			float:left;
-		}
-	}
-	
-	@media screen and (min-width:600px) and (max-width:900px)
-	{
-		#header,#footer{
-			width:600px;
-		}
-		#main{
-			width:600px;
-			height:400px;
-		}
-		#main-left{
-			width:200px;
-			height:400px;
-			border:solid 1px #ff0000;
-			float:left;
-		}
-		#main-center{
-			width:396px;
-			height:400px;
-			border:solid 1px #ff0000;
-			float:left;
-		}
-		#main-right{
-			display:none;
-		}
-	}
-	@media screen and (max-width:600px)
-	{
-		#header,#footer{
-			width:300px;
-		}
-		#main{
-			width:300px;
-			height:400px;
-		}
-		#main-left{
-			display:none;
-		}
-		#main-center{
-			width:300px;
-			height:400px;
-			border:solid 1px #ff0000;
-		}
-		#main-right{
-			display:none;
-		}
-	}
+body{
+	font-family:"微软雅黑", Arial;
+	background:#F0F0F0;
+}
+#table_all{
+	width:100%;
+	float:none;
+}
+.td_headphoto{
+	text-align:center;
+}
+.div_headphoto{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	overflow:hidden;
+	margin:0 auto;
+}
+.div_name{
+	font-size: 20px;
+	padding-top: 10px;
+}
+.img_headphoto{
+	width:100px;
+	height:100px;
+}
 </style>
+
 </head>
+
 <body>
-<div id="header">header</div>
-<div id="main">
-    	<div id="main-left">left</div>
-    	<div id="main-center">center</div>
-        <div id="main-right">right</div>
-    </div>
-<div id="footer">footer</div>
+<table id="table_all">
+  <tr>
+    <td class="td_headphoto">
+    <div class="div_headphoto"><img src="lin.jpg" class="img_headphoto"></div>
+    <div class="div_name">lin<a href="xys1.html" >page2</a></div>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
 </body>
 </html>
